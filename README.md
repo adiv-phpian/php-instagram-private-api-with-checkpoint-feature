@@ -28,8 +28,8 @@ if(!is_object($response) && isset($response['code']) && $response['code'] == 201
      $session = $instagram->saveSession();
      
 }
-
 `
+
 <b> You need to store this $session response for next request, where you are going to send verfication code to API. <b>
   
 You have to save $session from above step and use it in below code.
