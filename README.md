@@ -1,6 +1,8 @@
 
 
-<b> This is liam cottle library with checkpoint issue solved. </b>
+<b> This is liam cottle library with instagram private api checkpoint issue solved. </b>
+
+<b> Clone repo and run example folder on your browser. you can see how it's works. </b>
 
 <b>Do not use this checkpoint feature for bulk like. There's a chance that you will get checkpoint again or you might need to verify profile once you reach limit.</b>
 
@@ -33,6 +35,8 @@ if(!is_object($response) && isset($response['code']) && $response['code'] == 201
 You have to save $session from above step and use it in below code.
   
 <b>Here's code to send verification code</b>
+
+
 
 `
 $instagram = new \Instagram\Instagram();
