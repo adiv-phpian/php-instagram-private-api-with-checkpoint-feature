@@ -1,0 +1,36 @@
+{
+  "name": "liamcottle/instagram-sdk-php",
+  "type": "library",
+  "description": "This is an unofficial SDK for the Instagram Private API in PHP",
+  "license": "MIT",
+  "keywords": [
+    "Instagram",
+    "Private",
+    "API",
+    "PHP",
+    "SDK"
+  ],
+  "support": {
+    "issues": "https://github.com/liamcottle/Instagram-SDK-PHP/issues",
+    "wiki": "https://github.com/liamcottle/Instagram-SDK-PHP/wiki",
+    "source": "https://github.com/liamcottle/Instagram-SDK-PHP"
+  },
+  "authors": [
+    {
+      "name": "Liam Cottle",
+      "email": "liam@liamcottle.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Instagram\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*",
+    "php-curl-class/php-curl-class": "^4.11",
+    "netresearch/jsonmapper": "^0.11.0",
+    "ramsey/uuid": "^3.4"
+  }
+}
