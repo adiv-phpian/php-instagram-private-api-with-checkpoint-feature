@@ -12,7 +12,7 @@
     try{
 
       $instagram = new \Instagram\Instagram();
-      $instagram->setProxy("159.89.186.226:80");
+      //$instagram->setProxy("159.89.186.226:80");
 
       $method = json_decode($_POST['method_obj']);
       $session = $_POST['insta'];
