@@ -12,7 +12,7 @@
    if(isset($_POST['username']) && isset($_POST['password'])){
 
    $instagram = new \Instagram\Instagram();
-   $instagram->setProxy("159.89.186.226:80");
+   //$instagram->setProxy("159.89.186.226:80");
 
    try{
 
