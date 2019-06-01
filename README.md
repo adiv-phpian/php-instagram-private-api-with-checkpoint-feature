@@ -1,4 +1,8 @@
 
+MGP25 checkpoint class 
+
+https://github.com/muthu-kc/instagram-checkpoint-and-rate-limit 
+
 <b> This is a liam cottle library with instagram private api checkpoint issue solved. </b>
 
 <b> Clone repo and run example folder on your browser. you can see how it's works. </b>
